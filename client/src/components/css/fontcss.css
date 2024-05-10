@@ -1,0 +1,95 @@
+.heading_font_style {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  font-size: 13px !important;
+}
+.heading_font_style_heading {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 600 !important;
+  font-style: normal !important;
+}
+.heading_font_style_heading1 {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 600 !important;
+  font-style: normal !important;
+  font-size: 25px;
+}
+
+.heading_font_style::placeholder {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  font-size: 13px !important;
+}
+.heading_font_style select option {
+  font-size: 13px;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
+
+
+.heading_underline_curved_style {
+  position: relative;
+}
+
+.heading_underline_curved_style::after {
+  content: "";
+  width: 5%;
+  height: 30px;
+  background-image: url(https://www.beyondcss.dev/underline.svg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+}
+
+
+/* Box Shadow */
+
+.box_shadow_container{
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 3px;
+  /* box-shadow: 0 0 4px rgba(0, 0, 0, 0.6); */
+  /* box-shadow: 0 0 4px rgba(0, 0, 255, 0.6); */
+
+/* Blue 1 */
+/* box-shadow: 0 0 4px #1677ff; */
+
+/* Blue 2 */
+/* box-shadow: 0 0 6px #1677ff; */
+
+/* Blue 3 */
+/* box-shadow: 0 0 8px #1677ff; */
+
+/* Blue 4 */
+/* box-shadow: 0 0 10px #1677ff; */
+
+/* Blue 5 */
+/* box-shadow: 0 0 12px #1677ff; */
+
+/* Blue 6 */
+box-shadow: 0 0 9px #1677ff;
+
+/* Blue 7 */
+/* box-shadow: 0 0 16px #1677ff; */
+
+/* Blue 8 */
+/* box-shadow: 0 0 18px #1677ff; */
+
+/* Blue 9 */
+/* box-shadow: 0 0 20px #1677ff; */
+
+/* Blue 10 */
+/* box-shadow: 0 0 22px #1677ff; */
+
+
+
+}
+.button_size_container {
+  width: 100px !important;
+}

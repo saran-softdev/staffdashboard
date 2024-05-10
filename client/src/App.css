@@ -1,0 +1,13 @@
+.slider_container {
+  background-color: #071c3b !important;
+}
+
+.entire_bg_color {
+  background-color: #f7f7f9 !important;
+}
+
+.head_container {
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25) !important;
+  z-index: 1 !important;
+}
+
